@@ -1,0 +1,28 @@
+/* You can change the font to anything required here, provided you access the corresponding font family.*/
+/*$baseFontFamily: Lato;
+@import url(http://fonts.googleapis.com/css?family=Lato);*/
+
+$navbarBackgroundHighlight: red;
+$navbarBackground: white;
+$btnPrimaryBackground: red;
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+.navbar-inner {
+	@include box-shadow(none !important);
+	border: 0;
+}
+
+.footer {
+	margin-top: 50px;
+	color: $grayLight;
+	a {
+		color: $gray;
+	}
+}
+
+@import 'bootstrap-responsive';
